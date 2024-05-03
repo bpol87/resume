@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, san-serif;
+  padding: 15px 10px 100px 10px;
+  max-width: 1200px;
+  vertical-align: middle;
+}
+
+div{
+  margin-bottom: 1em;
+}
+
+h1 {
+  line-height: 0em;
+}
+
+h2 {
+  line-height: 1.5em;
+  margin-bottom: 0em;
+}
+
+p {
+  line-height: 1em;
+  margin-bottom: -.5em;
+}
+
+li {
+ font-size: 14px;
+  line-height: 1.5em;
+  margin: 0px;
+  padding:0px;
+}
+
+hr {
+  border-style: solid;
+  border-width: 2px;
+}
+
+#experience {
+  padding: 0px 0px 0px 0px;
+}
+
+#UX {
+  padding: 0px 30px 0px 30px;
+}
+
+.showy {
+  margin-top:-20px;
+  padding-bottom: 10px;
+  float:left;
+  ;
+}
+@media only screen and (max-width: 400px) {
+  .showy {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+    #essentials {
+      float:right;
+    width:70%;
+  }
+  #non-essentials {
+    float:left;
+    width:30%;
+    text-align:right;
+  }
+  .showy {
+    display: none;
+  }
+}
+@media only screen and (max-width:768px){
+    #non-essentials img {
+    display:none;
+  }
+}
+  
+h2{
+  margin-right: 30px;
+}
+
+.work {
+  padding: 0px 30px 0px 30px;
+}
+
+.company {
+  font-size: 18px;
+  color: #969696;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.role {
+  font-size: 14px;
+}
+
+.timeframe {
+  font-size: 14px;
+  color: #969696;
+  list-style-type: none;
+}
+
+.comtitle {
+  list-style-type: none;
+  margin-left: -20px;
+  padding: 0px;
+}
+
+.skilltitle {
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.skillsub {
+  color: #969696;
+  font-size: 16px;
+}
+
+li
